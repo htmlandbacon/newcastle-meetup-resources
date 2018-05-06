@@ -2,6 +2,8 @@
 
 Resources for meetup's based in Newcastle.
 
+View site at [https://newcastle-meetups.github.io/resources/](https://newcastle-meetups.github.io/resources/).
+
 ## Running
 
 To run this install [jekyll](https://jekyllrb.com/docs/installation/) and run `jekyll serve`.
