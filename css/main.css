@@ -1,0 +1,43 @@
+* {
+    box-sizing: border-box; 
+}
+
+/* #8ed7b0 #57451c; */
+
+body { 
+    font-family: Arial;
+    font-size: 1.2rem;
+    line-height: 2rem;
+    background: #8ed7b0;
+    padding: 0;
+    margin: 0;
+}
+
+h1 { 
+    font-size: 3rem;
+    line-height: 4rem;
+}
+
+.wrapper {
+    max-width: 900px;
+    padding: 1rem 3rem;
+    margin: 0 auto;
+    background: white;
+}
+
+a { 
+    color:#57451c;
+    font-weight:bold; 
+}
+
+a:hover {
+    color: green;
+}
+
+hr {
+    border: 0;
+    height: 1px;
+    width: 80%;
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
+}
+

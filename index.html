@@ -1,0 +1,23 @@
+---
+layout: default
+---
+
+<p><a href="http://campusnorth.co.uk/">Campus North</a> has been such a big part in bringing the tech community - providing amazing space for meetups.</p>
+
+<p>They will be saying goodbye in December! Check out "<a href="https://medium.com/@campusnorthuk/thats-all-folks-e0a3c8acdb56">That’s all Folks!</a>" by the team.</p>
+
+<p>Thanks to all the team at Campus North!<p>
+
+<hr />
+
+<p>I figured it would be a good idea to provide a central list for people looking to run an event.</p>
+
+<p>If you'd like to add your details or have any suggestions then feel free to open up an <a href="https://github.com/newcastle-meetups/resources/issues">issue</a> or <a href="https://help.github.com/articles/creating-a-pull-request/">pull request</a>.</p>
+
+<hr />
+
+{% assign sections = site.sections | sort: 'position' %}
+
+{% for section in sections  %}
+    {{ section }}
+{% endfor %}
